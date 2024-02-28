@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="/styles/style.css" />
+        <meta charset="utf-8" />
+    </head>
+    <script src="/scripts/building.js"></script>
+    <script src="/scripts/script.js"></script>
+    <body>
+        <main>
+            <h1>Bombs dropped:</h1>
+            <h2 id="score">0</h2>
+            <button type="button" onclick="scorePlusPlus()">Click Me!</button>
+            <br />
+            <button
+                type="button"
+                id="buygrenades"
+                onclick="grenades.purchase()"
+            >
+                Buy grenades
+            </button>
+
+            <button
+                type="button"
+                id="buyLandmines"
+                onclick="Landmines.purchase()"
+            >
+                Buy Land Mines
+            </button>
+
+            <button type="button" id="buyBallisticmissile" onclick="Ballisticmissile.purchase()">
+                Buy Ballistic missile
+            </button>
+
+            <button type="button" id="buyClusterbomb" onclick="Clusterbomb.purchase()">
+                Buy Cluster Bomb
+            </button>
+            <button type="button" id="buyMOAB" onclick="MOAB.purchase()">
+                Buy MOAB
+            </button>
+        </main>
+    </body>
+</html>
